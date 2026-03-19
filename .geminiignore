@@ -1,0 +1,12 @@
+# Configuração do Obsidian
+.obsidian/
+
+# Arquivos e pastas de ambiente Python
+**/__pycache__/
+**/.venv/
+**/venv/
+**/_temp_cache/
+**/_Audios_Processados/
+*.pyc
+*.pyo
+*.pyd

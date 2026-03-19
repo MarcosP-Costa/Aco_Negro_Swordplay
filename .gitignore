@@ -1,0 +1,27 @@
+# .gitignore para o Aço Negro Swordplay
+
+# Obsidian
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/graph.json
+.obsidian/appearance.json
+.obsidian/plugins/
+.obsidian/themes/
+
+# Python / Desenvolvimento
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Builds e Temporários
+dist/
+build/
+node_modules/
