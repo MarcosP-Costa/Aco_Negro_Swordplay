@@ -15,6 +15,14 @@ Este repositório adota a arquitetura de **Monorepo**, centralizando a base de c
 
 ---
 
+## 📊 Métricas do Repositório
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=MarcosP-Costa&repo=Aco_Negro_Swordplay&bg_color=0a0a0a&title_color=8b0000&text_color=e6d5b8&icon_color=cccccc&border_color=333333" alt="Aço Negro Swordplay Stats" />
+</div>
+
+---
+
 ## 🏗️ Arquitetura do Monorepo
 
 O repositório está estruturado para isolar contextos e evitar conflitos entre as equipes de conteúdo e desenvolvimento:
