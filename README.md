@@ -15,10 +15,33 @@ Este repositório adota a arquitetura de **Monorepo**, centralizando a base de c
 
 ---
 
-## 📊 Métricas do Repositório
+## 🛠️ Stack Tecnológica & Ferramentas
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Obsidian-1a1a1a?style=for-the-badge&logo=obsidian&logoColor=white" alt="Obsidian" />
+  <img src="https://img.shields.io/badge/HTML5-1a1a1a?style=for-the-badge&logo=html5&logoColor=E34F26" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1a1a1a?style=for-the-badge&logo=css3&logoColor=1572B6" alt="CSS3" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-1a1a1a?style=for-the-badge&logo=github-actions&logoColor=2088FF" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/Python-1a1a1a?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python" />
+</div>
+
+---
+
+## 📊 Métricas e Atividade
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=MarcosP-Costa&repo=Aco_Negro_Swordplay&bg_color=0a0a0a&title_color=8b0000&text_color=e6d5b8&icon_color=cccccc&border_color=333333" alt="Aço Negro Swordplay Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MarcosP-Costa&repo=Aco_Negro_Swordplay&layout=compact&bg_color=0a0a0a&title_color=8b0000&text_color=e6d5b8&icon_color=cccccc&border_color=333333" alt="Top Languages" />
+</div>
+
+<br>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MarcosP-Costa/Aco_Negro_Swordplay/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MarcosP-Costa/Aco_Negro_Swordplay/output/github-contribution-grid-snake.svg">
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/MarcosP-Costa/Aco_Negro_Swordplay/output/github-contribution-grid-snake.svg">
+  </picture>
 </div>
 
 ---
