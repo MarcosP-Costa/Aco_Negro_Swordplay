@@ -30,8 +30,8 @@ Este repositório adota a arquitetura de **Monorepo**, centralizando a base de c
 ## 📊 Métricas e Atividade
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=MarcosP-Costa&repo=Aco_Negro_Swordplay&bg_color=0a0a0a&title_color=8b0000&text_color=e6d5b8&icon_color=cccccc&border_color=333333" alt="Aço Negro Swordplay Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MarcosP-Costa&repo=Aco_Negro_Swordplay&layout=compact&bg_color=0a0a0a&title_color=8b0000&text_color=e6d5b8&icon_color=cccccc&border_color=333333" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=MarcosP-Costa&repo=Aco_Negro_Swordplay&bg_color=0a0a0a&title_color=8b0000&text_color=e6d5b8&icon_color=cccccc&border_color=333333&v=1" alt="Aço Negro Swordplay Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MarcosP-Costa&repo=Aco_Negro_Swordplay&layout=compact&bg_color=0a0a0a&title_color=8b0000&text_color=e6d5b8&icon_color=cccccc&border_color=333333&v=1" alt="Top Languages" />
 </div>
 
 <br>
