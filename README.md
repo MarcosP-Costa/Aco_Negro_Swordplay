@@ -1,70 +1,72 @@
 <div align="center">
   <img src="https://img.icons8.com/color/96/000000/sword.png" alt="Sword Icon" width="80"/>
-  <h1>Ordem do Aço Negro</h1>
-  <p><b>Swordplay, Combate e Comunidade Medieval</b></p>
+  <h1>Aço Negro Swordplay</h1>
+  <p><b>Repositório Oficial: Monorepo Híbrido (Web, Mobile & Docs)</b></p>
 
   <!-- Badges Visuais -->
-  <a href="#"><img src="https://img.shields.io/badge/Status-Forjando_o_Aço-orange?style=for-the-badge&logo=fire" alt="Status"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Obsidian-Cofre_Ativo-7a3ee8?style=for-the-badge&logo=obsidian" alt="Obsidian Vault"></a>
-  <a href="https://MarcosP-Costa.github.io/Aco_Negro_Swordplay/"><img src="https://img.shields.io/badge/Site-Online_Github_Pages-success?style=for-the-badge&logo=github" alt="GitHub Pages"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Status-Active_Development-orange?style=for-the-badge&logo=github" alt="Status"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Obsidian-Vault-7a3ee8?style=for-the-badge&logo=obsidian" alt="Obsidian Vault"></a>
+  <a href="https://MarcosP-Costa.github.io/Aco_Negro_Swordplay/"><img src="https://img.shields.io/badge/Deploy-GitHub_Pages-success?style=for-the-badge&logo=github" alt="GitHub Pages"></a>
 </div>
 
 <br>
 
-> *"Pelo aço, pela honra. Este é o nosso bastião digital."*
-
-Este repositório híbrido é o quartel-general da **Ordem do Aço Negro**. Ele funciona simultaneamente como nosso Cofre de anotações (Obsidian), base de código para o site da guilda e forja para nosso futuro aplicativo de torneios.
+Este repositório adota a arquitetura de **Monorepo**, centralizando a base de conhecimento do grupo (Obsidian Vault), o código-fonte do site institucional e o desenvolvimento do futuro aplicativo mobile.
 
 ---
 
-## 🗺️ O Mapa do Reino (Arquitetura)
+## 🏗️ Arquitetura do Monorepo
 
-Navegue com sabedoria pelas dependências do nosso castelo:
+O repositório está estruturado para isolar contextos e evitar conflitos entre as equipes de conteúdo e desenvolvimento:
 
 ```text
 📦 Aco_Negro_Swordplay
- ┣ 🌐 01_Site_Aco_Negro  --> O portal público da Ordem (HTML/CSS)
- ┣ 📱 02_App_Aco_Negro   --> (Na Forja) O aplicativo de chaveamento
- ┣ 🧠 03_Mural_do_Grupo  --> O Cofre Obsidian (Regras, Lore e Roadmap)
- ┗ 🛡️ 99_Recursos        --> Nosso arsenal de SVGs, logos e brasões
+ ┣ 🌐 01_Site_Aco_Negro  --> Código-fonte estático do site institucional (HTML/CSS)
+ ┣ 📱 02_App_Aco_Negro   --> (WIP) Base de código do aplicativo de chaveamento de torneios
+ ┣ 🧠 03_Mural_do_Grupo  --> Obsidian Vault contendo documentação, regras e o Roadmap do projeto
+ ┗ 🛡️ 99_Recursos        --> Assets compartilhados globais (SVGs, logos, paleta de cores)
 ```
 
 ---
 
-## ⚔️ Guia de Início Rápido (Para novos membros)
+## 🎨 Design System (Paleta de Cores)
 
-Se você acabou de chegar no quartel, aqui está como se equipar:
+A identidade visual do projeto, baseada no site original (Wix), deve seguir o seguinte esquema de cores para garantir consistência entre o Site e o App:
 
-### 1. Para os Escribas (Ler a Lore e Regras)
-Nosso conhecimento é guardado no **Obsidian**.
-- Baixe o [Obsidian](https://obsidian.md/).
-- Clique em *"Open folder as vault"*.
-- Selecione a pasta raiz deste repositório (`Aco_Negro_Swordplay`).
-- Leia o arquivo `01_Regulamento_Interno` dentro de `03_Mural_do_Grupo`.
-
-### 2. Para os Construtores (Editar o Site)
-Nosso site é estático e servido diretamente pelo GitHub.
-- Todo o código fonte está em `01_Site_Aco_Negro/`.
-- Qualquer mudança feita na *branch main* (master) é publicada automaticamente pela magia do GitHub Actions.
+*   **Primary Background:** Preto (`#1a1a1a` a `#000000`)
+*   **Secondary/Surface:** Cinza Chumbo / Aço (`#333333` a `#777777`)
+*   **Text/Typography:** Branco e Prata Claro (`#e0e0e0` a `#ffffff`)
+*   **Accent Color (Destaques/Avisos):** Vermelho Escuro / Sangue (`#b22222` ou `#8B0000`)
 
 ---
 
-## 🔗 Atalhos Rápidos
+## 🚀 Setup do Ambiente e Deployment
 
-- 🏰 **[Site Oficial da Ordem (Novo)](https://MarcosP-Costa.github.io/Aco_Negro_Swordplay/)**
-- 📜 **[Site Antigo (Referência Wix)](https://ordemdoaconegro.wixsite.com/ordem-do-aco-negro)**
-- 🗺️ **[Roadmap de Batalha (O que precisa ser feito)](03_Mural_do_Grupo/00_Roadmap.md)**
+### 1. Documentação (Obsidian)
+Para visualizar ou editar a base de conhecimento:
+1. Instale o [Obsidian](https://obsidian.md/).
+2. Abra o aplicativo e selecione *`Open folder as vault`*.
+3. Aponte para a raiz deste repositório clonado.
+4. **Nota:** O arquivo de workspace pessoal (`.obsidian/workspace.json`) está no `.gitignore` e não deve ser commitado.
+
+### 2. Deployment do Site (GitHub Pages)
+O deploy do diretório `01_Site_Aco_Negro/` é automatizado via GitHub Actions. **A configuração inicial requer ativação manual no painel do GitHub:**
+1. Acesse a aba **Settings** do repositório no GitHub.
+2. Navegue até **Pages** no menu lateral esquerdo.
+3. Na seção **Build and deployment**, altere o campo **Source** de *"Deploy from a branch"* para **"GitHub Actions"**.
+4. A partir deste momento, qualquer push na branch `main` engatilhará o workflow de deploy automaticamente.
 
 ---
 
-## 🤝 Leis de Contribuição
+## 🔗 Links Úteis
 
-Para manter o nosso reino organizado, todos os combatentes devem seguir estas regras ao "comitar" código ou texto:
+- **[Site em Produção](https://MarcosP-Costa.github.io/Aco_Negro_Swordplay/)**
+- **[Referência Legada (Site Wix)](https://ordemdoaconegro.wixsite.com/ordem-do-aco-negro)**
 
-1. ⚠️ **O Cofre Pessoal é Privado:** Nunca faça commits do arquivo `.obsidian/workspace.json`. Nosso `.gitignore` já o repele, mas fique atento.
-2. **As Fronteiras do Site:** O que vai para a pasta `01_Site_Aco_Negro` se torna público para o mundo inteiro. Não coloque notas internas ou estratégias de treino lá.
-3. **Novas Armas (Scripts):** Vai programar algo novo? Comunique a liderança e siga o fluxo de *Proposta -> Aprovação* antes de sujar a raiz do repositório.
+---
 
-<div align="center">
-  <i>Que sua lâmina nunca cegue.</i>
-</div>
+## 🤝 Diretrizes de Contribuição
+
+1. **Separação de Contexto:** Arquivos Markdown relacionados a regras e lore devem permanecer estritamente em `03_Mural_do_Grupo`.
+2. **Web Estático:** A pasta `01_Site_Aco_Negro` deve conter apenas assets públicos. Nenhuma documentação interna deve ser inserida neste diretório.
+3. **Novos Módulos:** O desenvolvimento de novos scripts ou funcionalidades deve ser documentado e aprovado previamente pelos mantenedores antes da criação na raiz ou no módulo do App.
