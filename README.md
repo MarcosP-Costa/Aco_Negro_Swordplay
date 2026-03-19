@@ -1,12 +1,12 @@
 <div align="center">
-  <img src="https://img.icons8.com/color/96/000000/sword.png" alt="Sword Icon" width="80"/>
-  <h1>Aço Negro Swordplay</h1>
-  <p><b>Repositório Oficial: Monorepo Híbrido (Web, Mobile & Docs)</b></p>
+  <img src="99_Recursos/Imagem.jpg" alt="Aço Negro Escudo" width="400"/>
 
-  <!-- Badges Visuais -->
-  <a href="#"><img src="https://img.shields.io/badge/Status-Active_Development-orange?style=for-the-badge&logo=github" alt="Status"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Obsidian-Vault-7a3ee8?style=for-the-badge&logo=obsidian" alt="Obsidian Vault"></a>
-  <a href="https://MarcosP-Costa.github.io/Aco_Negro_Swordplay/"><img src="https://img.shields.io/badge/Deploy-GitHub_Pages-success?style=for-the-badge&logo=github" alt="GitHub Pages"></a>
+  <br><br>
+
+  <!-- Badges Visuais (Paleta Aço Negro) -->
+  <a href="#"><img src="https://img.shields.io/badge/Status-Active_Development-8B0000?style=for-the-badge&logo=github&logoColor=white" alt="Status"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Obsidian-Vault-1a1a1a?style=for-the-badge&logo=obsidian&logoColor=white" alt="Obsidian Vault"></a>
+  <a href="https://MarcosP-Costa.github.io/Aco_Negro_Swordplay/"><img src="https://img.shields.io/badge/Deploy-GitHub_Pages-333333?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Pages"></a>
 </div>
 
 <br>
@@ -31,12 +31,12 @@ O repositório está estruturado para isolar contextos e evitar conflitos entre 
 
 ## 🎨 Design System (Paleta de Cores)
 
-A identidade visual do projeto, baseada no site original (Wix), deve seguir o seguinte esquema de cores para garantir consistência entre o Site e o App:
+A identidade visual do projeto, baseada no brasão oficial (Anima Conformata), deve seguir estritamente o seguinte esquema de cores para garantir consistência entre o Site e o App:
 
-*   **Primary Background:** Preto (`#1a1a1a` a `#000000`)
-*   **Secondary/Surface:** Cinza Chumbo / Aço (`#333333` a `#777777`)
-*   **Text/Typography:** Branco e Prata Claro (`#e0e0e0` a `#ffffff`)
-*   **Accent Color (Destaques/Avisos):** Vermelho Escuro / Sangue (`#b22222` ou `#8B0000`)
+*   **Primary Background (Fundo Principal):** Preto Profundo (`#000000` a `#0a0a0a`)
+*   **Surface/Metals (Superfícies de Aço):** Grafite Texturizado (`#1f1f1f` a `#2c2c2c`)
+*   **Accent Color (Brilho/Energia):** Vermelho Sangue / Escarlate Neon (`#ff0000`, `#cc0000`, `#8b0000`)
+*   **Text/Parchment (Textos e Faixas):** Pergaminho / Bege Envelhecido (`#e6d5b8`) e Cinza Prata (`#cccccc`)
 
 ---
 
