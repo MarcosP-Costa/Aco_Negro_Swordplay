@@ -1,0 +1,223 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Ordem do Aço Negro | Swordplay">
+	<main>
+		<!-- HERO SECTION: O topo da página, brutalista e imersivo -->
+		<header class="hero">
+			<div class="overlay"></div>
+			<div class="content">
+				<h1 class="glitch-title">Aço Negro</h1>
+				<p class="tagline">Pelo aço, pela honra. Combate e Comunidade Medieval.</p>
+				<div class="actions">
+					<a href="https://www.instagram.com/ordemdoaconegro/" target="_blank" class="btn primary">Junte-se à Ordem</a>
+					<a href="https://ordemdoaconegro.wixsite.com/ordem-do-aco-negro/swordplay" target="_blank" class="btn secondary">O que é Swordplay?</a>
+				</div>
+			</div>
+		</header>
+
+		<!-- CARDS SECTION: Diferenciais da Ordem -->
+		<section class="features">
+			<div class="feature-card">
+				<h3>⚔️ Combate Tático</h3>
+				<p>Treinamentos focados em estratégia, precisão e respeito. Empunhe sua espada e teste suas habilidades em duelos mortais e batalhas campais.</p>
+			</div>
+			<div class="feature-card">
+				<h3>🛡️ Honra e Regras</h3>
+				<p>Nosso combate é seguro, baseado na honra inquestionável (fair play) e num regulamento estrito forjado para garantir o crescimento de todos os combatentes.</p>
+			</div>
+			<div class="feature-card">
+				<h3>🏰 Irmandade</h3>
+				<p>Mais que um grupo de treinos, somos um clã. Construímos laços reais de amizade e compartilhamos o pão dentro e fora dos campos de combate.</p>
+			</div>
+		</section>
+
+		<!-- LORE SECTION: Resumo da guilda -->
+		<section class="lore">
+			<div class="lore-content">
+				<h2>Anima Conformata</h2>
+				<p>Forjamos nossos corpos no combate e conformamos nossas almas na forja da disciplina. A Ordem do Aço Negro não é apenas para quem busca golpear, mas para quem busca pertencer.</p>
+			</div>
+		</section>
+
+		<!-- FOOTER -->
+		<footer>
+			<p>&copy; 2026 Ordem do Aço Negro. Repositório Open Source no GitHub.</p>
+		</footer>
+	</main>
+</Layout>
+
+<style>
+	main {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+	}
+	
+	/* Estilos da Seção Hero (Topo) */
+	.hero {
+		position: relative;
+		min-height: 85vh;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		/* Usa o fundo escuro da imagem que pegamos para o readme como background! */
+		background: url('https://raw.githubusercontent.com/MarcosP-Costa/Aco_Negro_Swordplay/main/99_Recursos/Imagem.jpg') center/cover no-repeat;
+		border-bottom: 5px solid var(--accent-blood);
+	}
+	
+	.hero .overlay {
+		position: absolute;
+		top: 0; left: 0; width: 100%; height: 100%;
+		background: linear-gradient(to bottom, rgba(5,5,5,0.7) 0%, rgba(5,5,5,0.95) 100%);
+		z-index: 1;
+	}
+	
+	.hero .content {
+		position: relative;
+		z-index: 2;
+		max-width: 900px;
+		padding: 2rem;
+	}
+	
+	h1.glitch-title {
+		font-size: 6rem;
+		margin: 0;
+		color: var(--accent-bright);
+		text-shadow: 0px 0px 30px rgba(139, 0, 0, 0.8), 2px 2px 5px #000;
+		letter-spacing: 10px;
+	}
+	
+	@media (max-width: 768px) {
+		h1.glitch-title { font-size: 3.5rem; letter-spacing: 2px; }
+	}
+
+	.tagline {
+		font-size: 1.5rem;
+		margin-top: 1rem;
+		margin-bottom: 3.5rem;
+		color: var(--text-parchment);
+		font-style: italic;
+	}
+
+	/* Estilos de Botões */
+	.actions {
+		display: flex;
+		gap: 2rem;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	
+	.btn {
+		padding: 1.2rem 2.5rem;
+		font-size: 1.1rem;
+		font-family: 'Cinzel', serif;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		transition: all 0.3s ease;
+		cursor: pointer;
+	}
+	
+	.btn.primary {
+		background: var(--accent-blood);
+		color: var(--text-parchment);
+		border: 1px solid var(--accent-bright);
+		box-shadow: 0 0 15px rgba(139,0,0,0.5);
+	}
+	
+	.btn.primary:hover {
+		background: var(--accent-bright);
+		box-shadow: 0 0 25px rgba(204,0,0,0.8);
+		transform: translateY(-2px);
+	}
+	
+	.btn.secondary {
+		background: transparent;
+		color: var(--text-steel);
+		border: 1px solid var(--text-steel);
+	}
+	
+	.btn.secondary:hover {
+		background: var(--bg-surface);
+		color: var(--text-parchment);
+		border-color: var(--text-parchment);
+	}
+
+	/* Seção de Features (Cards) */
+	.features {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+		gap: 2.5rem;
+		padding: 5rem 2rem;
+		background: var(--bg-primary);
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+	
+	.feature-card {
+		background: var(--bg-surface);
+		padding: 2.5rem;
+		border-top: 4px solid var(--accent-blood);
+		border-radius: 4px;
+		box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+		transition: transform 0.4s ease, border-color 0.4s ease;
+	}
+	
+	.feature-card:hover {
+		transform: translateY(-8px);
+		border-color: var(--accent-bright);
+	}
+	
+	.feature-card h3 {
+		color: var(--accent-bright);
+		margin-top: 0;
+		font-size: 1.5rem;
+		border-bottom: 1px solid var(--bg-surface-light);
+		padding-bottom: 1rem;
+		margin-bottom: 1rem;
+	}
+
+	.feature-card p {
+		line-height: 1.8;
+		font-size: 1.05rem;
+	}
+
+	/* Lore Section (Faixa Divisória) */
+	.lore {
+		background: var(--bg-surface-light);
+		padding: 4rem 2rem;
+		text-align: center;
+		border-top: 1px solid #111;
+		border-bottom: 1px solid #111;
+	}
+	
+	.lore-content {
+		max-width: 800px;
+		margin: 0 auto;
+	}
+	
+	.lore-content h2 {
+		color: var(--text-parchment);
+		font-size: 2.5rem;
+		margin-bottom: 1.5rem;
+	}
+	
+	.lore-content p {
+		font-size: 1.2rem;
+		line-height: 1.8;
+		font-style: italic;
+		color: var(--text-steel);
+	}
+
+	/* Footer */
+	footer {
+		text-align: center;
+		padding: 3rem 2rem;
+		background: var(--bg-primary);
+		color: #555;
+		font-size: 0.9rem;
+	}
+</style>

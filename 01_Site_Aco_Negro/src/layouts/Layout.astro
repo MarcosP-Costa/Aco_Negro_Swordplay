@@ -1,0 +1,73 @@
+---
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Aço Negro Swordplay - Combate Medieval e Comunidade" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Lora:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+		<title>{title}</title>
+	</head>
+	<body>
+		<slot />
+	</body>
+</html>
+
+<style is:global>
+	:root {
+		/* Paleta Anima Conformata (Baseada no Escudo) */
+		--bg-primary: #050505; /* Preto Profundo */
+		--bg-surface: #1a1a1a; /* Grafite Aço */
+		--bg-surface-light: #2c2c2c;
+		
+		--accent-blood: #8b0000; /* Vermelho Sangue (Brasão) */
+		--accent-bright: #cc0000; /* Vermelho Brilhante (Crucifixo Luz) */
+		
+		--text-parchment: #e6d5b8; /* Bege Pergaminho (Faixa) */
+		--text-steel: #cccccc; /* Cinza Prata (Texto Corrido) */
+		--text-dark: #111111; /* Para contrastar no pergaminho */
+	}
+	
+	html {
+		/* Cinzel para Títulos (Fonte de Fantasia Clássica) e Lora para texto corrido */
+		font-family: 'Lora', 'Georgia', serif; 
+		background: var(--bg-primary);
+		color: var(--text-steel);
+		scroll-behavior: smooth;
+	}
+	
+	body {
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+		min-height: 100vh;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		font-family: 'Cinzel', serif;
+		color: var(--text-parchment);
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		font-weight: 700;
+	}
+
+	a {
+		color: var(--accent-bright);
+		text-decoration: none;
+		transition: color 0.3s ease;
+	}
+	
+	a:hover {
+		color: var(--text-parchment);
+	}
+</style>
