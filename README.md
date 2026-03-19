@@ -3,17 +3,27 @@
 
   <br><br>
 
-  <!-- Badges Visuais (Paleta Aço Negro) -->
-  <a href="#"><img src="https://img.shields.io/badge/Status-Active_Development-8B0000?style=for-the-badge&logo=github&logoColor=white" alt="Status"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Obsidian-Vault-1a1a1a?style=for-the-badge&logo=obsidian&logoColor=white" alt="Obsidian Vault"></a>
-  <a href="https://MarcosP-Costa.github.io/Aco_Negro_Swordplay/"><img src="https://img.shields.io/badge/Deploy-GitHub_Pages-333333?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Pages"></a>
+  <!-- Badges Dinâmicas de Status -->
+  <a href="https://github.com/MarcosP-Costa/Aco_Negro_Swordplay/actions/workflows/deploy-pages.yml"><img src="https://github.com/MarcosP-Costa/Aco_Negro_Swordplay/actions/workflows/deploy-pages.yml/badge.svg" alt="Deploy Site Status"></a>
+  <a href="https://github.com/MarcosP-Costa/Aco_Negro_Swordplay/actions/workflows/generate-snake.yml"><img src="https://github.com/MarcosP-Costa/Aco_Negro_Swordplay/actions/workflows/generate-snake.yml/badge.svg" alt="Generate Snake Status"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Obsidian-Vault-1a1a1a?style=flat-square&logo=obsidian&logoColor=white" alt="Obsidian Vault"></a>
 </div>
 
 <br>
 
-Este repositório adota a arquitetura de **Monorepo**, centralizando a base de conhecimento do grupo (Obsidian Vault), o código-fonte do site institucional e o desenvolvimento do futuro aplicativo mobile.
+Este é um repositório técnico mantido por desenvolvedores da **Ordem do Aço Negro**. O projeto é desenvolvido **sem fins lucrativos**, visando a digitalização, gestão e automação do ecossistema do clã através de uma arquitetura Monorepo (Web, Mobile e Documentação).
 
 ---
+
+## 🔗 Links Oficiais e Contato
+
+*   🌐 **Website Institucional (Novo):** [Aço Negro Swordplay](https://MarcosP-Costa.github.io/Aco_Negro_Swordplay/)
+*   📸 **Instagram Oficial:** [@ordemdoaconegro](https://www.instagram.com/ordemdoaconegro/)
+*   📜 **Referência Legada:** [Portal Wix (Manual de Swordplay)](https://ordemdoaconegro.wixsite.com/ordem-do-aco-negro/swordplay)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
+</p>
 
 ## 🛠️ Stack Tecnológica & Ferramentas
 
@@ -25,7 +35,9 @@ Este repositório adota a arquitetura de **Monorepo**, centralizando a base de c
   <img src="https://img.shields.io/badge/Python-1a1a1a?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python" />
 </div>
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
+</p>
 
 ## 📊 Métricas e Atividade
 
@@ -44,7 +56,9 @@ Este repositório adota a arquitetura de **Monorepo**, centralizando a base de c
   </picture>
 </div>
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
+</p>
 
 ## 🏗️ Arquitetura do Monorepo
 
@@ -87,12 +101,17 @@ O deploy do diretório `01_Site_Aco_Negro/` é automatizado via GitHub Actions. 
 3. Na seção **Build and deployment**, altere o campo **Source** de *"Deploy from a branch"* para **"GitHub Actions"**.
 4. A partir deste momento, qualquer push na branch `main` engatilhará o workflow de deploy automaticamente.
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
+</p>
 
-## 🔗 Links Úteis
+## 👥 Contribuidores do Clã
 
-- **[Site em Produção](https://MarcosP-Costa.github.io/Aco_Negro_Swordplay/)**
-- **[Referência Legada (Site Wix)](https://ordemdoaconegro.wixsite.com/ordem-do-aco-negro)**
+<div align="center">
+  <a href="https://github.com/MarcosP-Costa/Aco_Negro_Swordplay/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=MarcosP-Costa/Aco_Negro_Swordplay" />
+  </a>
+</div>
 
 ---
 
